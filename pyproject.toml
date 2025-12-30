@@ -1,0 +1,16 @@
+[project]
+name = "mini-movie-rag-system"
+version = "0.1.0"
+description = "Super lightweight RAG pipeline for querying movie plots"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "openai>=1.0.0",
+    "chromadb>=0.4.0",
+    "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = []
