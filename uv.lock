@@ -586,7 +586,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mini-rag-system"
+name = "mini-movie-rag-system"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
